@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+F:\Thomas\SSHStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2793916056.index
+\day01_FirstStruts2Demo
+F:\Thomas\SSHStudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3791543512.index
+\day01_FirstStruts2Demo

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="53" version="2.0">
+<workbenchAdvisor/>
+<window height="728" maximized="true" width="1024" x="75" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.server.ui.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="default.properties" partName="default.properties" title="default.properties" tooltip="F:\Thomas\SSHStudy\day01_FirstStruts2Demo\WebRoot\WEB-INF\lib\struts2-core-2.1.8.jar\org\apache\struts2\default.properties" workbook="DefaultEditorWorkbook">
+<input element="=day01_FirstStruts2Demo/F:\/Thomas\/SSHStudy\/day01_FirstStruts2Demo\/WebRoot\/WEB-INF\/lib\/struts2-core-2.1.8.jar&lt;org.apache.struts2" factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" path="default.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="1348" selectionTopPixel="374"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="struts.xml" partName="struts.xml" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/src/struts.xml" title="struts.xml" tooltip="day01_FirstStruts2Demo/src/struts.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/src/struts.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActionContextDemoAction.java" partName="ActionContextDemoAction.java" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionContextDemoAction.java" title="ActionContextDemoAction.java" tooltip="day01_FirstStruts2Demo/src/com/wangwang/fk/ActionContextDemoAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionContextDemoAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="403" selectionTopPixel="103"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="dm1.jsp" partName="dm1.jsp" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm1.jsp" title="dm1.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm1.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm1.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="343" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginAction.java" partName="LoginAction.java" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction.java" title="LoginAction.java" tooltip="day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1193" selectionTopPixel="392"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="welcome.jsp" partName="welcome.jsp" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/welcome.jsp" title="welcome.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/welcome.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/welcome.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="600" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActionInvokeServletApiDemo.java" partName="ActionInvokeServletApiDemo.java" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionInvokeServletApiDemo.java" title="ActionInvokeServletApiDemo.java" tooltip="day01_FirstStruts2Demo/src/com/wangwang/fk/ActionInvokeServletApiDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionInvokeServletApiDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1174" selectionTopPixel="307"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="dm2.jsp" partName="dm2.jsp" path="F:/Thomas/SSHStudy/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm2.jsp" title="dm2.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm2.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm2.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="432" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<expanded>&#x0A;<category IMemento.internal.id="XML Problem (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@739ca615" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3195572" ratioLeft="433" ratioRight="922" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6985173" ratioLeft="424" ratioRight="183" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction.java"/>
+<editor element="=day01_FirstStruts2Demo/F:\/Thomas\/SSHStudy\/day01_FirstStruts2Demo\/WebRoot\/WEB-INF\/lib\/struts2-core-2.1.8.jar&lt;org.apache.struts2" factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="default.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/day01_FirstStruts2Demo/src/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionContextDemoAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm1.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/welcome.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionInvokeServletApiDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm2.jsp"/>
+</editors>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="default.properties" index="1">
+<position info="not_deleted" x="1348" y="13"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="default.properties" index="1">
+<position info="not_deleted" x="1348" y="13"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="492" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="738" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="dm1.jsp" index="4">
+<position info="not_deleted" x="343" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="733" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="733" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="236" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="437" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="711" y="0"/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position/>
+</item>
+<item historyLabel="ActionContextDemoAction.java" index="3">
+<position info="not_deleted" x="403" y="0"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="137" y="11"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="942" y="0"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="828" y="0"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="1125" y="0"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="1196" y="0"/>
+</item>
+<item historyLabel="LoginAction.java" index="0">
+<position info="not_deleted" x="1193" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="5">
+<position info="not_deleted" x="600" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="LoginAction2.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="773" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="dm2.jsp" index="8">
+<position info="not_deleted" x="314" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1051" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1084" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1141" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1143" y="0"/>
+</item>
+<item historyLabel="dm2.jsp" index="8">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="753" y="0"/>
+</item>
+<item historyLabel="dm2.jsp" index="8">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="753" y="0"/>
+</item>
+<item historyLabel="dm2.jsp" index="8">
+<position info="not_deleted" x="414" y="0"/>
+</item>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1134" y="0"/>
+</item>
+<item historyLabel="dm2.jsp" index="8">
+<position info="not_deleted" x="432" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1174" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item active="true" historyLabel="ActionInvokeServletApiDemo.java" index="7">
+<position info="not_deleted" x="1174" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="dm2.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm2.jsp">
+<persistable path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm2.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginAction2.java" tooltip="day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction2.java">
+<persistable path="/day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="welcome.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/welcome.jsp">
+<persistable path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/welcome.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginAction.java" tooltip="day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction.java">
+<persistable path="/day01_FirstStruts2Demo/src/com/wangwang/fk/LoginAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="dm1.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm1.jsp">
+<persistable path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/dm1.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActionContextDemoAction.java" tooltip="day01_FirstStruts2Demo/src/com/wangwang/fk/ActionContextDemoAction.java">
+<persistable path="/day01_FirstStruts2Demo/src/com/wangwang/fk/ActionContextDemoAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="struts.xml" tooltip="day01_FirstStruts2Demo/src/struts.xml">
+<persistable path="/day01_FirstStruts2Demo/src/struts.xml"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="default.properties" tooltip="F:\Thomas\SSHStudy\day01_FirstStruts2Demo\WebRoot\WEB-INF\lib\struts2-core-2.1.8.jar\org\apache\struts2\default.properties">
+<persistable element="=day01_FirstStruts2Demo/F:\/Thomas\/SSHStudy\/day01_FirstStruts2Demo\/WebRoot\/WEB-INF\/lib\/struts2-core-2.1.8.jar&lt;org.apache.struts2" path="default.properties"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="xwork-messages.properties" tooltip="F:\Thomas\SSHStudy\day01_FirstStruts2Demo\WebRoot\WEB-INF\lib\xwork-core-2.1.6.jar\com\opensymphony\xwork2\xwork-messages.properties">
+<persistable element="=day01_FirstStruts2Demo/F:\/Thomas\/SSHStudy\/day01_FirstStruts2Demo\/WebRoot\/WEB-INF\/lib\/xwork-core-2.1.6.jar&lt;com.opensymphony.xwork2" path="xwork-messages.properties"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="struts-messages.properties" tooltip="F:\Thomas\SSHStudy\day01_FirstStruts2Demo\WebRoot\WEB-INF\lib\struts2-core-2.1.8.jar\org\apache\struts2\struts-messages.properties">
+<persistable element="=day01_FirstStruts2Demo/F:\/Thomas\/SSHStudy\/day01_FirstStruts2Demo\/WebRoot\/WEB-INF\/lib\/struts2-core-2.1.8.jar&lt;org.apache.struts2" path="struts-messages.properties"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="struts-messages_da.properties" tooltip="F:\Thomas\SSHStudy\day01_FirstStruts2Demo\WebRoot\WEB-INF\lib\struts2-core-2.1.8.jar\org\apache\struts2\struts-messages_da.properties">
+<persistable element="=day01_FirstStruts2Demo/F:\/Thomas\/SSHStudy\/day01_FirstStruts2Demo\/WebRoot\/WEB-INF\/lib\/struts2-core-2.1.8.jar&lt;org.apache.struts2" path="struts-messages_da.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="login.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/login.jsp">
+<persistable path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/login.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="error.jsp" tooltip="day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/error.jsp">
+<persistable path="/day01_FirstStruts2Demo/WebRoot/WEB-INF/pages/fk/01/error.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="mess.properties" tooltip="day01_FirstStruts2Demo/src/mess.properties">
+<persistable path="/day01_FirstStruts2Demo/src/mess.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="mess_zh_CN.properties" tooltip="day01_FirstStruts2Demo/src/mess_zh_CN.properties">
+<persistable path="/day01_FirstStruts2Demo/src/mess_zh_CN.properties"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,14 @@
+package com.wangwang.fk;
+
+import java.util.Map;
+
+import com.opensymphony.xwork2.ActionContext;
+
+public class ActionContextDemoAction {
+	public String execute() {
+		ActionContext context=ActionContext.getContext();
+		//Map<String,Object> parameters=context.getParameters();
+		//System.out.println("name:"+parameters.get("name"));
+		return "ok";
+	}
+}

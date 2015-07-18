@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    <struts>
+       <!-- 建立一个包来管理action -->
+       <package name="cc" namespace="/demo"  extends="struts-default">
+          <action name="image" class="com.wangwang.demo.ImageAction">
+             <param name=""></param>
+             <result>/WEB-INF/pages/image.jsp</result>
+          </action>
+       </package>
+       
+       <package name="cc2" namespace=""  extends="struts-default">
+          <action name="hello" class="com.wangwang.demo.HelloWorldAction" method="execute">
+             <result name="success">/WEB-INF/pages/hello.jsp</result>
+          </action>
+       </package>
+    </struts>

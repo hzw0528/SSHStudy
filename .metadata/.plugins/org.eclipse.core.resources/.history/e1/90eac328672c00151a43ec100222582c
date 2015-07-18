@@ -1,0 +1,49 @@
+package com.wangwang.fk;
+
+import javax.servlet.ServletContext;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts2.interceptor.ServletRequestAware;
+import org.apache.struts2.interceptor.ServletResponseAware;
+import org.apache.struts2.util.ServletContextAware;
+
+import com.opensymphony.xwork2.Action;
+
+public class ActionInvokeServletApiDemo implements ServletResponseAware,
+		ServletRequestAware, ServletContextAware,Action {
+
+	private HttpServletResponse resp;
+	private HttpServletRequest req;
+	private ServletContext ctx;
+
+	@Override
+	public void setServletResponse(HttpServletResponse respones) {
+		this.resp = respones;
+	}
+
+	@Override
+	public void setServletRequest(HttpServletRequest request) {
+		this.req = request;
+
+	}
+
+	@Override
+	public void setServletContext(ServletContext context) {
+		this.ctx = context;
+	}
+
+	@Override
+	public String execute() throws Exception {
+		Cookie cookie=new Cookie("name","旺旺");
+		cookie.setMaxAge(60*60);
+		resp.addCookie(cookie);
+		
+		
+		return this.SUCCESS;
+	}
+	
+	
+
+}

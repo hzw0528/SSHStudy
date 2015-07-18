@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- 配置请求action的后缀 -->
+	<constant name="struts.action.extension" value="do,action,go" />
+	<!-- 配置修改struts配置文件自动加载 -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<!-- 配置开发者模式，可以查看更加详细的信息 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 配置国际化 -->
+	<constant name="struts.custom.i18n.resources" value="mess" />
+	<!-- 配置国际化语言编码 -->
+	<constant name="struts.custom.i18n.encoding" value="GBK" />
+	<!-- 配置默认的语言 -->
+	<constant name="struts.locale" value="en_US"/>
+	<!-- 建立一个包来管理action -->
+	<package name="cc" namespace="/demo" extends="struts-default">
+		<action name="image" class="com.wangwang.demo.ImageAction">
+			<param name="imagePath">/images</param>
+			<result>/WEB-INF/pages/image.jsp</result>
+		</action>
+		<action name="hello" class="com.wangwang.demo.HelloWorldAction"
+			method="execute">
+			<result name="success">/WEB-INF/pages/hello.jsp</result>
+		</action>
+	</package>
+
+	<package name="wangwang" namespace="/fk" extends="struts-default">
+		<action name="login" class="com.wangwang.fk.LoginAction">
+			<result name="input">/WEB-INF/pages/fk/01/login.jsp</result>
+			<result name="success">/WEB-INF/pages/fk/01/welcome.jsp</result>
+			<result name="error">/WEB-INF/pages/fk/01/error.jsp</result>
+		</action>
+	</package>
+
+</struts>

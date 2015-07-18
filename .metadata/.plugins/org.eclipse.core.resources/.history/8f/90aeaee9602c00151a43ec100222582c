@@ -1,0 +1,10 @@
+package com.wangwang.fk;
+
+import com.opensymphony.xwork2.ActionContext;
+
+public class ActionContextDemoAction {
+	public String execute() {
+		String name = ActionContext.getContext().get("name");
+		return "ok";
+	}
+}
