@@ -11,6 +11,8 @@ public class ActionContextDemoAction {
 	public String getName() {
 
 		try {
+			if (name == null)
+				return null;
 			return new String(name.getBytes("ISO-8859-1"), "UTF-8");
 		} catch (UnsupportedEncodingException e) {
 			throw new RuntimeException(e);

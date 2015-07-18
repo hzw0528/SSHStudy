@@ -46,4 +46,16 @@ public class LoginAction extends ActionSupport {
 		}
 		
 	}
+	/**
+	 * 用户注册测试
+	 * @return
+	 */
+	public String register()
+	{
+		 
+		 ActionContext ctx=ActionContext.getContext();
+		 ctx.getSession().put("user",getUsername());
+		 ctx.put("tip", "服务器提示：注册成功!!");
+		 return SUCCESS;
+	}
 }

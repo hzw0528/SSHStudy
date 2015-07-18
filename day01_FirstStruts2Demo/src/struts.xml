@@ -12,7 +12,7 @@
 	<!-- 配置国际化 -->
 	<constant name="struts.custom.i18n.resources" value="mess" />
 	<!-- 配置国际化语言编码 -->
-	<constant name="struts.custom.i18n.encoding" value="GBK" />
+	<constant name="struts.custom.i18n.encoding" value="UTF-8" />
 	<!-- 配置默认的语言 -->
 	<!-- <constant name="struts.locale" value="en_US"/> -->
 	<!-- 建立一个包来管理action -->
@@ -33,12 +33,51 @@
 			<result name="success">/WEB-INF/pages/fk/01/welcome.jsp</result>
 			<result name="error">/WEB-INF/pages/fk/01/error.jsp</result>
 		</action>
+		<!-- 演示ActionContext获得 servlet的api -->
 		<action name="dm1" class="com.wangwang.fk.ActionContextDemoAction">
-		  <result name="ok">/WEB-INF/pages/fk/01/dm1.jsp</result>
+			<result name="ok">/WEB-INF/pages/fk/01/dm1.jsp</result>
 		</action>
+		<!-- 演示 Action实现接口ServletResponseAware等访问 Servlet Api -->
 		<action name="dm2" class="com.wangwang.fk.ActionInvokeServletApiDemo">
-		  <result name="success">/WEB-INF/pages/fk/01/dm2.jsp</result>
+			<result name="success">/WEB-INF/pages/fk/01/dm2.jsp</result>
+		</action>
+
+		<!-- 演示 ServletActionContext访问 Servlet API -->
+		<action name="dm3" class="com.wangwang.fk.ServletActionContextAction">
+			<result name="success">/WEB-INF/pages/fk/01/dm3.jsp</result>
+		</action>
+	</package>
+	
+	<!-- 默认的命名空间 -->
+	<package name="nm-default" extends="struts-default">
+		<action name="dm1" class="com.wangwang.fk.ActionContextDemoAction">
+			<result name="ok">/WEB-INF/pages/fk/01/dm1.jsp</result>
 		</action>
 	</package>
 
+	<!-- 根的命名空间 -->
+	<package name="nm" namespace="/" extends="struts-default">
+
+	</package>
+
+	<!-- 多级的命名空间 -->
+	<package name="nm2" namespace="/service/loginservice" extends="struts-default">
+		
+	</package>
+
+		<!-- 多级的命名空间2 -->
+	<package name="nm3" namespace="/service" extends="struts-default">
+		<action name="dm2" class="com.wangwang.fk.ActionInvokeServletApiDemo">
+			<result name="success">/WEB-INF/pages/fk/01/dm2.jsp</result>
+		</action>
+	</package>
+	
+	<!-- 使用统配符的方式配置 -->
+	<package name="nm4" namespace="/demo4" extends="struts-default">
+	    <action name="*UserAction" class="com.wangwang.fk.UserAction"
+	        method="{1}"
+	        >
+	        <result>/WEB-INF/pages/fk/02/tips.jsp </result>
+	    </action>
+	</package>
 </struts>

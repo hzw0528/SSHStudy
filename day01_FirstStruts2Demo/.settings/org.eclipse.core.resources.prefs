@@ -1,4 +1,5 @@
-#Fri Jul 17 14:21:48 CST 2015
 eclipse.preferences.version=1
 encoding//WebRoot/WEB-INF/pages/hello.jsp=UTF-8
+encoding//src/com/wangwang/fk/ActionInvokeServletApiDemo.java=UTF-8
+encoding//src/com/wangwang/fk/LoginAction.java=UTF-8
 encoding//src/mess.properties=GBK
