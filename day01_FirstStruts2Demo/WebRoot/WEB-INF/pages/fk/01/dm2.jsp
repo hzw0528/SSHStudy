@@ -10,7 +10,7 @@
    <p>
    我的信息:
    </p>
-   <p>用户名:${cookie.user.value }</p>
+   <p>用户名:</p>
    <p>年龄:${requestScope.age}</p>
 </body>
 </html>
