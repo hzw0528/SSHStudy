@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>我的应用</title>
+<title>我的应用rtrtrt</title>
 </head>
 <body>
    <H1>Welcome to Java EE Development Center's</H1>
