@@ -47,7 +47,7 @@
 			<result name="success">/WEB-INF/pages/fk/01/dm3.jsp</result>
 		</action>
 	</package>
-	
+
 	<!-- 默认的命名空间 -->
 	<package name="nm-default" extends="struts-default">
 		<action name="dm1" class="com.wangwang.fk.ActionContextDemoAction">
@@ -62,22 +62,74 @@
 
 	<!-- 多级的命名空间 -->
 	<package name="nm2" namespace="/service/loginservice" extends="struts-default">
-		
+
 	</package>
 
-		<!-- 多级的命名空间2 -->
+	<!-- 多级的命名空间2 -->
 	<package name="nm3" namespace="/service" extends="struts-default">
 		<action name="dm2" class="com.wangwang.fk.ActionInvokeServletApiDemo">
 			<result name="success">/WEB-INF/pages/fk/01/dm2.jsp</result>
 		</action>
 	</package>
-	
+
 	<!-- 使用统配符的方式配置 -->
 	<package name="nm4" namespace="/demo4" extends="struts-default">
-	    <action name="*UserAction" class="com.wangwang.fk.UserAction"
-	        method="{1}"
-	        >
-	        <result>/WEB-INF/pages/fk/02/tips.jsp </result>
-	    </action>
+		<action name="*UserAction" class="com.wangwang.fk.UserAction"
+			method="{1}">
+			<result>/WEB-INF/pages/fk/02/tips.jsp </result>
+		</action>
+	</package>
+
+	<!-- 测试视图结果 -->
+	<package name="viewResult" namespace="/vw" extends="struts-default">
+		<action name="*ResultAction" class="com.wangwang.fk.ActionResultAction"
+			method="{1}">
+			<result name="code" type="plainText">
+				<param name="location"> /WEB-INF/pages/fk/03/code.jsp</param>
+				<param name="charSet">UTF-8</param>
+			</result>
+			<result name="redirect" type="redirect">/redirect.jsp</result>
+			<result name="redirectAction" type="redirectAction">
+				<param name="actionName">login</param>
+				<param name="namespace">/fk</param>
+			</result>
+		</action>
+		<action name="my" class="com.wangwang.fk.ActionResultAction">
+			<result type="redirect">/${target}.jsp</result>
+		</action>
+		<action name="pre" class="com.wangwang.fk.PreResultListenerAction">
+			<result>/WEB-INF/pages/fk/03/preresultListener.jsp</result>
+		</action>
+	</package>
+
+
+
+	<!-- 测试异常 -->
+	<package name="test-exception" namespace="/ex" extends="struts-default">
+		<!-- 全局的结果视图映射 -->
+		<global-results>
+			<result name="runtime">/WEB-INF/pages/fk/03/runtimeexception.jsp
+			</result>
+			<result name="exception">/WEB-INF/pages/fk/03/exception.jsp</result>
+		</global-results>
+
+		<!-- 全局异常映射 -->
+		<global-exception-mappings>
+			<exception-mapping result="runtime"
+				exception="java.lang.RuntimeException" name="runtimeException" />
+			<exception-mapping result="exception" exception="java.lang.Excetion"
+				name="exception" />
+		</global-exception-mappings>
+		<action name="calculator" class="com.wangwang.fk.Calculator">
+			<result>/WEB-INF/pages/fk/03/calculator.jsp</result>
+		</action>
+
+		<action name="calculation" class="com.wangwang.fk.Calculator"
+			method="calculation">
+			<result>/WEB-INF/pages/fk/03/calculator.jsp</result>
+			<result name="myexception">/WEB-INF/pages/fk/03/myexception.jsp</result>
+			<exception-mapping result="myexception"
+				exception="com.wangwang.exception.MyException" name="myexception" />
+		</action>
 	</package>
 </struts>
